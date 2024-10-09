@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "Windows Client.png",
+      "filename" : "Windows Client.svg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Windows Client@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Windows Client@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

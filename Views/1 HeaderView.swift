@@ -23,11 +23,11 @@ struct HeaderView: View {
                 VStack(alignment: .leading, spacing: 16) {
                     HStack{
                         Image(systemName: "envelope.fill")
-                        Text(verbatim: "r.bettinghausen@gmx.de")
+                        Text("r.bettinghausen@gmx.de")
                             .font(.system(size: 13, weight: .regular, design: .rounded))
-                            .foregroundColor(Color(red: 125/255, green: 125/255, blue: 181/255))
+                            .tint(Color(red: 125/255, green: 125/255, blue: 181/255))
                     }
-                    HStack{
+                    HStack(){
                         Image("LinkedIn")
                             .resizable()
                             .frame(width: 24, height: 24)
@@ -57,63 +57,57 @@ struct HeaderView: View {
                 .padding()
             }
             
-            .frame(maxWidth: .infinity, alignment: .top)
-            
-            
-            
-            HStack{
+            HStack(){
                 Image("Figma")
                     .resizable()
-                    .frame(width: 30, height: 30)
+                    .frame(width: 20, height: 20)
                 
                 Spacer()
                 
                 Image("SwiftUI")
                     .resizable()
-                    .frame(width: 24, height: 24)
-                
+                    .frame(width: 20, height: 20)
+
                 Spacer()
                 
                 Image("Kotlin")
                     .resizable()
-                    .frame(width: 32, height: 32)
-                
+                    .frame(width: 20, height: 20)
+
                 Spacer()
                 
                 Image("Firebase")
                     .resizable()
-                    .frame(width: 24, height: 24)
-                
+                    .frame(width: 20, height: 20)
+
                 Spacer()
                 
                 Image("GitHub")
                     .resizable()
-                    .frame(width: 24, height: 24)
-                
+                    .frame(width: 20, height: 20)
+
                 Spacer()
                 
                 Image("Windows Client")
                     .resizable()
-                    .frame(width: 24, height: 24)
-                
+                    .frame(width: 20, height: 20)
+
                 Spacer()
                 
                 Image("Mac Logo")
                     .resizable()
-                    .frame(width: 24, height: 24)
-                
-                Spacer()
+                    .frame(width: 20, height: 20)
+
                 
             }
             .padding(.horizontal)
             
             Spacer() // Ensures any content below pushes everything to the top
         }
-        .frame(maxHeight: .infinity, alignment: .top) // Forces the entire header to stay at the top
-
     }
 }
 
 #Preview {
     HeaderView()
+    
 }
