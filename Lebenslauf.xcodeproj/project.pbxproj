@@ -23,9 +23,10 @@
 		03B6EBA32CB57C6F00C4D290 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				"0 CVView.swift",
 				"1 HeaderView.swift",
-				"2 BodyView.swift",
-				CVView.swift,
+				"2 ExperienceView.swift",
+				"3 EducationView.swift",
 			);
 			target = CE75F1EA2C8B1427001AD0A3 /* Lebenslauf */;
 		};
@@ -50,10 +51,10 @@
 		CE75F1E22C8B1427001AD0A3 = {
 			isa = PBXGroup;
 			children = (
-				03B6EBA02CB551A500C4D290 /* Models */,
 				CE75F1ED2C8B1427001AD0A3 /* Lebenslauf */,
 				CE75F1EC2C8B1427001AD0A3 /* Products */,
 				03B6EBA22CB551B500C4D290 /* Views */,
+				03B6EBA02CB551A500C4D290 /* Models */,
 			);
 			sourceTree = "<group>";
 		};

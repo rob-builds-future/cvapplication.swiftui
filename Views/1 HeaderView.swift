@@ -100,9 +100,7 @@ struct HeaderView: View {
 
                 
             }
-            .padding(.horizontal)
-            
-            Spacer() // Ensures any content below pushes everything to the top
+            .padding()
         }
     }
 }
