@@ -6,4 +6,5 @@ struct Experience {
     var location: String
     var startDate: String
     var endDate: String
+    var image: String
 }

@@ -5,4 +5,5 @@ struct Education {
     var educator: String
     var startDate: String
     var endDate: String
+    var image: String
 }

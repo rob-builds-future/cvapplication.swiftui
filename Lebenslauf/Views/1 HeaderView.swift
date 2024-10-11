@@ -15,7 +15,7 @@ struct HeaderView: View {
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 125, height: 174)
                     .clipShape(RoundedRectangle(cornerRadius: 12))
-                    .shadow(color: Color.black.opacity(0.3), radius: 10, x: 0, y: 5)
+                    .shadow(color: colorScheme == .dark ? .white : .black, radius: 10, x: 0, y: 0)
                     .padding(.leading)
                 
                 VStack(alignment: .leading) {
