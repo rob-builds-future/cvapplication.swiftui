@@ -20,7 +20,7 @@ struct ExperienceRect: View {
                     )
                 VStack(alignment: .leading){
                     Text("\(experience.employer), \(experience.location)")
-                    Text("\(experience.startDate) bis \(experience.endDate)")
+                    Text("\(experience.startDate) to \(experience.endDate)")
                 }
             }
         }

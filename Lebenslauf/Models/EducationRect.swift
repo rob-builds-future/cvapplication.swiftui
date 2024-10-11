@@ -23,7 +23,7 @@ struct EducationRect: View {
                             )
                         VStack(alignment: .leading){
                             Text("\(education.educator)")
-                            Text("\(education.startDate) bis \(education.endDate)")
+                            Text("\(education.startDate) to \(education.endDate)")
                         }
                     }
                 }

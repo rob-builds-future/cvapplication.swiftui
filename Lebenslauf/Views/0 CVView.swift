@@ -7,7 +7,7 @@ struct CVView: View {
         VStack{
             HeaderView()
             ScrollView{
-                BannerView()
+                BannerScrollView()
                 ExperienceView()
                 EducationView()
             }
