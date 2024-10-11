@@ -3,39 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		038062B02CB80BF40092DC86 /* 2 BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062AA2CB80BF40092DC86 /* 2 BannerView.swift */; };
+		038062B12CB80BF40092DC86 /* 3 ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062AC2CB80BF40092DC86 /* 3 ExperienceView.swift */; };
+		038062B22CB80BF40092DC86 /* 4 EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062AD2CB80BF40092DC86 /* 4 EducationView.swift */; };
+		038062B32CB80BF40092DC86 /* 2a BannerScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062AB2CB80BF40092DC86 /* 2a BannerScrollView.swift */; };
+		038062B42CB80BF40092DC86 /* 0 CVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062A82CB80BF40092DC86 /* 0 CVView.swift */; };
+		038062B52CB80BF40092DC86 /* CCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062AE2CB80BF40092DC86 /* CCView.swift */; };
+		038062B62CB80BF40092DC86 /* 1 HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062A92CB80BF40092DC86 /* 1 HeaderView.swift */; };
+		038062BE2CB80D3A0092DC86 /* ExperienceRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062BD2CB80D3A0092DC86 /* ExperienceRect.swift */; };
+		038062C02CB812CB0092DC86 /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062A52CB80BDE0092DC86 /* Education.swift */; };
+		038062C12CB812D60092DC86 /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062A62CB80BDE0092DC86 /* Experience.swift */; };
+		038062C32CB81CD30092DC86 /* EducationRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062C22CB81CD30092DC86 /* EducationRect.swift */; };
+		038062C52CB8215D0092DC86 /* EducationRectFin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062C42CB8215D0092DC86 /* EducationRectFin.swift */; };
 		CE75F1EF2C8B1427001AD0A3 /* LebenslaufApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75F1EE2C8B1427001AD0A3 /* LebenslaufApp.swift */; };
 		CE75F1F32C8B1428001AD0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE75F1F22C8B1428001AD0A3 /* Assets.xcassets */; };
 		CE75F1F62C8B1428001AD0A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE75F1F52C8B1428001AD0A3 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		038062A52CB80BDE0092DC86 /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
+		038062A62CB80BDE0092DC86 /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		038062A82CB80BF40092DC86 /* 0 CVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0 CVView.swift"; sourceTree = "<group>"; };
+		038062A92CB80BF40092DC86 /* 1 HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1 HeaderView.swift"; sourceTree = "<group>"; };
+		038062AA2CB80BF40092DC86 /* 2 BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2 BannerView.swift"; sourceTree = "<group>"; };
+		038062AB2CB80BF40092DC86 /* 2a BannerScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2a BannerScrollView.swift"; sourceTree = "<group>"; };
+		038062AC2CB80BF40092DC86 /* 3 ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3 ExperienceView.swift"; sourceTree = "<group>"; };
+		038062AD2CB80BF40092DC86 /* 4 EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4 EducationView.swift"; sourceTree = "<group>"; };
+		038062AE2CB80BF40092DC86 /* CCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCView.swift; sourceTree = "<group>"; };
+		038062BD2CB80D3A0092DC86 /* ExperienceRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceRect.swift; sourceTree = "<group>"; };
+		038062C22CB81CD30092DC86 /* EducationRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationRect.swift; sourceTree = "<group>"; };
+		038062C42CB8215D0092DC86 /* EducationRectFin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationRectFin.swift; sourceTree = "<group>"; };
 		CE75F1EB2C8B1427001AD0A3 /* Lebenslauf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lebenslauf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE75F1EE2C8B1427001AD0A3 /* LebenslaufApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LebenslaufApp.swift; sourceTree = "<group>"; };
 		CE75F1F22C8B1428001AD0A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE75F1F52C8B1428001AD0A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		03B6EBA32CB57C6F00C4D290 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"0 CVView.swift",
-				"1 HeaderView.swift",
-				"2 ExperienceView.swift",
-				"3 EducationView.swift",
-			);
-			target = CE75F1EA2C8B1427001AD0A3 /* Lebenslauf */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		03B6EBA02CB551A500C4D290 /* Models */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Models; sourceTree = "<group>"; };
-		03B6EBA22CB551B500C4D290 /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (03B6EBA32CB57C6F00C4D290 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CE75F1E82C8B1427001AD0A3 /* Frameworks */ = {
@@ -48,13 +54,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		038062A72CB80BDE0092DC86 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				038062A52CB80BDE0092DC86 /* Education.swift */,
+				038062A62CB80BDE0092DC86 /* Experience.swift */,
+				038062BD2CB80D3A0092DC86 /* ExperienceRect.swift */,
+				038062C22CB81CD30092DC86 /* EducationRect.swift */,
+				038062C42CB8215D0092DC86 /* EducationRectFin.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		038062AF2CB80BF40092DC86 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				038062A82CB80BF40092DC86 /* 0 CVView.swift */,
+				038062A92CB80BF40092DC86 /* 1 HeaderView.swift */,
+				038062AA2CB80BF40092DC86 /* 2 BannerView.swift */,
+				038062AB2CB80BF40092DC86 /* 2a BannerScrollView.swift */,
+				038062AC2CB80BF40092DC86 /* 3 ExperienceView.swift */,
+				038062AD2CB80BF40092DC86 /* 4 EducationView.swift */,
+				038062AE2CB80BF40092DC86 /* CCView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CE75F1E22C8B1427001AD0A3 = {
 			isa = PBXGroup;
 			children = (
 				CE75F1ED2C8B1427001AD0A3 /* Lebenslauf */,
 				CE75F1EC2C8B1427001AD0A3 /* Products */,
-				03B6EBA22CB551B500C4D290 /* Views */,
-				03B6EBA02CB551A500C4D290 /* Models */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +99,8 @@
 		CE75F1ED2C8B1427001AD0A3 /* Lebenslauf */ = {
 			isa = PBXGroup;
 			children = (
+				038062AF2CB80BF40092DC86 /* Views */,
+				038062A72CB80BDE0092DC86 /* Models */,
 				CE75F1EE2C8B1427001AD0A3 /* LebenslaufApp.swift */,
 				CE75F1F22C8B1428001AD0A3 /* Assets.xcassets */,
 				CE75F1F42C8B1428001AD0A3 /* Preview Content */,
@@ -154,6 +186,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				038062C52CB8215D0092DC86 /* EducationRectFin.swift in Sources */,
+				038062B02CB80BF40092DC86 /* 2 BannerView.swift in Sources */,
+				038062C12CB812D60092DC86 /* Experience.swift in Sources */,
+				038062B12CB80BF40092DC86 /* 3 ExperienceView.swift in Sources */,
+				038062C02CB812CB0092DC86 /* Education.swift in Sources */,
+				038062C32CB81CD30092DC86 /* EducationRect.swift in Sources */,
+				038062B22CB80BF40092DC86 /* 4 EducationView.swift in Sources */,
+				038062B32CB80BF40092DC86 /* 2a BannerScrollView.swift in Sources */,
+				038062BE2CB80D3A0092DC86 /* ExperienceRect.swift in Sources */,
+				038062B42CB80BF40092DC86 /* 0 CVView.swift in Sources */,
+				038062B52CB80BF40092DC86 /* CCView.swift in Sources */,
+				038062B62CB80BF40092DC86 /* 1 HeaderView.swift in Sources */,
 				CE75F1EF2C8B1427001AD0A3 /* LebenslaufApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +332,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Lebenslauf/Preview Content\"";
+				DEVELOPMENT_TEAM = 95TD7SMZS7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -320,6 +365,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Lebenslauf/Preview Content\"";
+				DEVELOPMENT_TEAM = 95TD7SMZS7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
