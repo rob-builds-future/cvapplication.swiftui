@@ -13,7 +13,7 @@ struct EducationView: View {
         VStack(alignment: .leading){
             VStack(alignment: .leading){
                 Text("Education")
-                    .fontWeight(.heavy)
+                    .font(.system(size: 18, weight: .heavy, design: .rounded))
                 Divider()
             }
             .padding([.horizontal, .top])

@@ -10,7 +10,7 @@ struct EducationRect: View {
             HStack{
                 VStack(alignment: .leading){
                     Text("\(education.education)")
-                        .fontWeight(.bold)
+                        .font(.system(size: 18, weight: .bold, design: .rounded))
                     HStack{
                         Image(education.image)
                             .resizable()
@@ -23,7 +23,9 @@ struct EducationRect: View {
                             )
                         VStack(alignment: .leading){
                             Text("\(education.educator)")
+                                .font(.system(size: 18, weight: .regular, design: .rounded))
                             Text("\(education.startDate) to \(education.endDate)")
+                                .font(.system(size: 18, weight: .regular, design: .rounded))
                         }
                     }
                 }

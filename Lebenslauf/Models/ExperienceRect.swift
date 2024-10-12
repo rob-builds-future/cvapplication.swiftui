@@ -7,7 +7,7 @@ struct ExperienceRect: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text("\(experience.title)")
-                .fontWeight(.bold)
+                .font(.system(size: 18, weight: .bold, design: .rounded))
             HStack{
                 Image(experience.image)
                     .resizable()
@@ -20,7 +20,9 @@ struct ExperienceRect: View {
                     )
                 VStack(alignment: .leading){
                     Text("\(experience.employer), \(experience.location)")
+                        .font(.system(size: 18, weight: .regular, design: .rounded))
                     Text("\(experience.startDate) to \(experience.endDate)")
+                        .font(.system(size: 18, weight: .regular, design: .rounded))
                 }
             }
         }
@@ -33,5 +35,5 @@ struct ExperienceRect: View {
 }
 
 #Preview {
-    ExperienceRect(experience: Experience(title: "HR & CRM Process Auditor", employer: "Schwarz Corproate Solutions", location: "Neckarsulm", startDate: "2021", endDate: "2023", image: "SCS"))
+    ExperienceRect(experience: Experience(title: "HR & CRM Process Auditor", employer: "Schwarz Corp. Solutions", location: "Neckarsulm", startDate: "2021", endDate: "2023 (2y 9m)", image: "SCS"))
 }
