@@ -12,7 +12,6 @@
 		038062B22CB80BF40092DC86 /* 4 EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062AD2CB80BF40092DC86 /* 4 EducationView.swift */; };
 		038062B32CB80BF40092DC86 /* 2a BannerScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062AB2CB80BF40092DC86 /* 2a BannerScrollView.swift */; };
 		038062B42CB80BF40092DC86 /* 0 CVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062A82CB80BF40092DC86 /* 0 CVView.swift */; };
-		038062B52CB80BF40092DC86 /* CCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062AE2CB80BF40092DC86 /* CCView.swift */; };
 		038062B62CB80BF40092DC86 /* 1 HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062A92CB80BF40092DC86 /* 1 HeaderView.swift */; };
 		038062BE2CB80D3A0092DC86 /* ExperienceRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062BD2CB80D3A0092DC86 /* ExperienceRect.swift */; };
 		038062C02CB812CB0092DC86 /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038062A52CB80BDE0092DC86 /* Education.swift */; };
@@ -33,7 +32,6 @@
 		038062AB2CB80BF40092DC86 /* 2a BannerScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2a BannerScrollView.swift"; sourceTree = "<group>"; };
 		038062AC2CB80BF40092DC86 /* 3 ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3 ExperienceView.swift"; sourceTree = "<group>"; };
 		038062AD2CB80BF40092DC86 /* 4 EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4 EducationView.swift"; sourceTree = "<group>"; };
-		038062AE2CB80BF40092DC86 /* CCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCView.swift; sourceTree = "<group>"; };
 		038062BD2CB80D3A0092DC86 /* ExperienceRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceRect.swift; sourceTree = "<group>"; };
 		038062C22CB81CD30092DC86 /* EducationRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationRect.swift; sourceTree = "<group>"; };
 		038062C42CB8215D0092DC86 /* EducationRectFin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationRectFin.swift; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 				038062AB2CB80BF40092DC86 /* 2a BannerScrollView.swift */,
 				038062AC2CB80BF40092DC86 /* 3 ExperienceView.swift */,
 				038062AD2CB80BF40092DC86 /* 4 EducationView.swift */,
-				038062AE2CB80BF40092DC86 /* CCView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,7 +193,6 @@
 				038062B32CB80BF40092DC86 /* 2a BannerScrollView.swift in Sources */,
 				038062BE2CB80D3A0092DC86 /* ExperienceRect.swift in Sources */,
 				038062B42CB80BF40092DC86 /* 0 CVView.swift in Sources */,
-				038062B52CB80BF40092DC86 /* CCView.swift in Sources */,
 				038062B62CB80BF40092DC86 /* 1 HeaderView.swift in Sources */,
 				CE75F1EF2C8B1427001AD0A3 /* LebenslaufApp.swift in Sources */,
 			);
